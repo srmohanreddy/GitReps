@@ -1,0 +1,25 @@
+<TestScenario1>
+	<Verification1>
+		<username>cds3232</username>
+		<password>dasdsds</password>
+		<expectedstring>Sorry, unrecognized username or password. Have you forgotten your password?</expectedstring>
+	</Verification1>
+	<Verification2>
+		<expectedstring>Username or e-mail address</expectedstring>
+	</Verification2>
+	<Verification3>
+		<email>testuser3434@test23.com</email>
+		<expectedstring>Further instructions have been sent to your e-mail address.</expectedstring>
+	</Verification3>
+	<Verification4>
+		<username>TechTestUser</username>
+		<password>Qs5e8W4T</password>
+		<expectedstring>Users</expectedstring>
+	</Verification4>
+	<Verification5>
+		<expectedstring>Import Participants</expectedstring>
+	</Verification5>
+	<Verification6>
+		<expectedstring>Created 1 user</expectedstring>
+	</Verification6>
+</TestScenario1>
