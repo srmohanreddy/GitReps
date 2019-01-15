@@ -104,6 +104,7 @@ namespace NDATask
             
             importParicipantsPage.btnImport.Click();
             System.Threading.Thread.Sleep(9000);
+            driver.Manage().Timeouts().ImplicitWait = TimeSpan.FromSeconds(2);
             //Verificatiom #6
             try
             {
